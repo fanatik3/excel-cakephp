@@ -1,0 +1,41 @@
+{
+    "name": "iteracode/excel",
+    "description": "Excel plugin for CakePHP 3",
+    "type": "cakephp-plugin",
+    "keywords": [
+        "cakephp",
+        "excel"
+    ],
+    "homepage": "https://github.com/iteracode/excel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cornelius Wichmann",
+            "role": "Author"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/iteracode/excel/issues",
+        "source": "https://github.com/iteracode/excel"
+    },
+    "require": {
+        "php": ">=5.4",
+        "cakephp/plugin-installer": "*",
+        "cakephp/cakephp": "3.4.*",
+        "phpoffice/phpexcel": "1.8.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Iteracode\\Excel\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Iteracode\\Excel\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}
