@@ -1,5 +1,5 @@
 {
-    "name": "iteracode/excel",
+    "name": "fanatik3/cakephp-excel",
     "description": "Excel plugin for CakePHP 3",
     "type": "cakephp-plugin",
     "keywords": [
@@ -21,7 +21,7 @@
     "require": {
         "php": ">=5.4",
         "cakephp/plugin-installer": "*",
-        "cakephp/cakephp": "3.4.*",
+        "cakephp/cakephp": "3.6.*",
         "phpoffice/phpexcel": "1.8.*"
     },
     "require-dev": {
@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Iteracode\\Excel\\": "src"
+            "Fanatik3\\Excel\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Iteracode\\Excel\\Test\\": "tests",
+            "Fanatik3\\Excel\\Test\\": "tests",
             "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
         }
     }
