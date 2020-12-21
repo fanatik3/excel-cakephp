@@ -1,6 +1,6 @@
 <?php
 
-namespace Iteracode\Excel\Controller\Component;
+namespace Fanatik3\Excel\Controller\Component;
 
 use Cake\Controller\Component;
 use Cake\Controller\ComponentRegistry;
@@ -9,7 +9,7 @@ use Cake\ORM\Exception\MissingTableClassException;
 /**
  * The MIT License
  *
- * Copyright 2015 Iteracode <c.wichmann@gmx.de>.
+ * Copyright 2015 Fanatik3 <c.wichmann@gmx.de>.
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -33,7 +33,7 @@ use Cake\ORM\Exception\MissingTableClassException;
 /**
  * CakePHP Import Component
  *
- * @author Iteracode <c.wichmann@gmx.de>
+ * @author Fanatik3 <c.wichmann@gmx.de>
  */
 class ImportComponent extends Component
 {

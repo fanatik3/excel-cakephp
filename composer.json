@@ -6,7 +6,7 @@
         "cakephp",
         "excel"
     ],
-    "homepage": "https://github.com/iteracode/excel",
+    "homepage": "https://github.com/Fanatik3/excel",
     "license": "MIT",
     "authors": [
         {
@@ -15,8 +15,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/iteracode/excel/issues",
-        "source": "https://github.com/iteracode/excel"
+        "issues": "https://github.com/Fanatik3/excel/issues",
+        "source": "https://github.com/Fanatik3/excel"
     },
     "require": {
         "php": ">=5.4",

@@ -1,6 +1,6 @@
 <?php
 
-namespace Iteracode\Excel\Test\Fixture;
+namespace Fanatik3\Excel\Test\Fixture;
 
 use Cake\TestSuite\Fixture\TestFixture;
 

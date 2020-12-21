@@ -1,6 +1,6 @@
 <?php
 
-namespace Iteracode\Excel\Controller;
+namespace Fanatik3\Excel\Controller;
 
 use App\Controller\AppController as BaseController;
 

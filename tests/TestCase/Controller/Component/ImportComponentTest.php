@@ -1,7 +1,7 @@
 <?php
-namespace Iteracode\Excel\Test\TestCase\Controller\Component;
+namespace Fanatik3\Excel\Test\TestCase\Controller\Component;
 
-use Iteracode\Excel\Controller\Component\ImportComponent;
+use Fanatik3\Excel\Controller\Component\ImportComponent;
 use Cake\Controller\ComponentRegistry;
 use Cake\TestSuite\TestCase;
 
@@ -42,6 +42,6 @@ class ImportComponentTest extends TestCase
      */
     public function testInitialization()
     {
-        $this->assertInstanceOf('\Iteracode\Excel\Controller\Component\ImportComponent', $this->Import);
+        $this->assertInstanceOf('\Fanatik3\Excel\Controller\Component\ImportComponent', $this->Import);
     }
 }

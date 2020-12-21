@@ -1,6 +1,6 @@
 <?php
 
-namespace Iteracode\Excel\View;
+namespace Fanatik3\Excel\View;
 
 use Cake\Core\Exception\Exception;
 use Cake\Event\EventManager;
@@ -82,7 +82,7 @@ class ExcelView extends View
     {
         parent::initialize();
         $this->viewBuilder()->setLayout('default');
-        $this->loadHelper('Iteracode/Excel.Excel');
+        $this->loadHelper('Fanatik3/Excel.Excel');
     }
 
     /**

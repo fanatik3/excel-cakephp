@@ -65,4 +65,4 @@ Cache::config([
     ]
 ]);
 
-Plugin::load('Iteracode/Excel', ['path' => ROOT]);
+Plugin::load('Fanatik3/Excel', ['path' => ROOT]);
